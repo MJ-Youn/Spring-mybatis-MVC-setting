@@ -1,4 +1,4 @@
-package com.department.serviceName;
+package com.department.serviceName.controller;
 
 import java.text.DateFormat;
 import java.util.Date;
