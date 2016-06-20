@@ -10,3 +10,5 @@
 |JDK|1.8.0_45|
 |JUnit|4.12|
 |Mockito-all|1.10.19|
+|logback|1.7.21|
+|lombok|1.16.8|
