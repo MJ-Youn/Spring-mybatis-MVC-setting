@@ -12,9 +12,9 @@
 	<!-- file로 log 남기기 -->
 	<!-- <timestamp key="byDay" datePattern="yyyyMMdd" />
 	<appender name="file" class="ch.qos.logback.core.FileAppender">
-		<file>${HOME}/logs/logback/log-${byDay}.log</file>
+		<file>${HOME:-${USERPROFILE}}/logs/logback/log-${byDay}.log</file>
 		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-			<fileNamePattern>${HOME}/logs/logback/log-${byDay}.log.zip
+			<fileNamePattern>${HOME:-${USERPROFILE}}/logs/logs/logback/log-${byDay}.log.zip
 			</fileNamePattern>
 			<maxHistory>3</maxHistory>
 		</rollingPolicy>
