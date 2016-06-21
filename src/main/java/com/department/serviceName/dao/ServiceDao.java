@@ -10,7 +10,7 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 @Repository
 public class ServiceDao extends AbstractDAO {
-	private static final String NAMESPACE = "testDAO.";
+	private static final String NAMESPACE = "testDao.";
 	
 	@Autowired
 	private FileUtil fileUtil;
