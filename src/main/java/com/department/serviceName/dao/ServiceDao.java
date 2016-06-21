@@ -9,7 +9,9 @@ import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @Repository
-public class ServiceDao {
+public class ServiceDao extends AbstractDAO {
+	private static final String NAMESPACE = "testDAO.";
+	
 	@Autowired
 	private FileUtil fileUtil;
 	
@@ -19,5 +21,10 @@ public class ServiceDao {
 		} else {
 			log.info(fileUtil.toString());
 		}
+	}
+	
+	public void selectUser() {
+		String testStatement = NAMESPACE + "selectUserList";
+		selectList(testStatement);
 	}
 }

@@ -19,6 +19,7 @@ public class HomeService {
 		} else {
 			log.info(serviceDao.toString());
 			serviceDao.checkFileUtil();
+			serviceDao.selectUser();
 		}
 	}
 }

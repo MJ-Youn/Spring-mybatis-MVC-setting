@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="testDao">
+	<select id="selectUserList" resultType="user">
+		<![CDATA[
+			SELECT u_id id, u_name name
+				FROM tb_user
+		]]>
+	</select>
+</mapper>
+
 <!-- <mapper namespace="hashDao">
     <select id="selectHashList" parameterType="int" resultType="hash">
         SELECT h.*
@@ -36,7 +45,3 @@
         </selectKey>
     </insert>
 </mapper> -->
-
-<mapper namespace="testDao">
-
-</mapper>
