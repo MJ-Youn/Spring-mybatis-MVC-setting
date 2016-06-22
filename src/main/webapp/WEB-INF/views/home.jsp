@@ -2,6 +2,8 @@
 <%@ page session="false" %>
 <html>
 	<head>
+		<script type="text/javascript" src="js/NewFile.js"></script>
+	    <link rel="stylesheet" type="text/css" href="css/NewFile.css">
 		<title>Home</title>
 	</head>
 	<body>
