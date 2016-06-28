@@ -12,3 +12,9 @@
 |Mockito-all|1.10.19|
 |logback|1.7.21|
 |lombok|1.16.8|
+
+
+1. package명 수정
+2. `mybatis-config.xml` typeAlias 수정
+3. `servlet-context.xml` component-scan 수정
+4. `localhost:{port_number}/{project_name}/` 으로 접속
