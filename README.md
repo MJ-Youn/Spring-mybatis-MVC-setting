@@ -21,3 +21,4 @@
 5. `localhost:{port_number}/{project_name}/` 으로 접속
 
 > lombok을 사용하기 위해서는 local IDE에 lombok을 설치해야한다.
+
